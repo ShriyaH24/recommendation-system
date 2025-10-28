@@ -1,4 +1,4 @@
-# Python cache and virtual environment files
+# Python cache and virtual environments
 __pycache__/
 *.pyc
 *.pyo
@@ -6,12 +6,13 @@ __pycache__/
 venv/
 .env
 
-# VS Code settings
+# VS Code
 .vscode/
 
-# OS-specific files
+# OS files
 .DS_Store
 Thumbs.db
 
-# Data files (to avoid uploading large CSVs)
+# Data files (optional)
 data/*.csv
+
