@@ -26,9 +26,7 @@ except FileNotFoundError:
     st.error(" Dataset not found. Please make sure your CSV file is inside the `/data` folder.")
     st.stop()
 
-# -------------------------------
-# 👥 Customer Selection
-# -------------------------------
+#Customer selection
 st.sidebar.header(" Select Customer")
 customer_ids = df["CustomerID"].unique().tolist()
 selected_customer = st.sidebar.selectbox("Choose a Customer ID:", customer_ids)
